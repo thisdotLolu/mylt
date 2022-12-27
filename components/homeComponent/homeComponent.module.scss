@@ -1,0 +1,80 @@
+.Explor_btn {
+  background: linear-gradient(100.98deg, #FFC55F 0%, #FB3951 58.18%, #E25A64 100%);
+  border-radius: 15px;
+}
+
+.timelineBox_contain {
+  padding: 10px;
+  padding-right: 0px;
+  background-image: url('../../assets/image/timeline/timeline_bg2.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: left;
+
+  @media (max-width: 900px) {
+    padding: 10px;
+    padding-left: 0px;
+    background-image: url('../../assets/image/timeline/timeline_bg1.png');
+    background-position: right;
+  }
+
+  @media (max-width: 640px) {
+    background: unset;
+    padding: unset;
+  }
+}
+
+.timelineBox {
+  background-image: url('../../assets/image/timeline/timeline_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.timelineBox_contain2 {
+  padding: 10px;
+  padding-left: 0px;
+  background-image: url('../../assets/image/timeline/timeline_bg1.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right;
+
+  @media (max-width: 640px) {
+    background: unset;
+    padding: unset;
+  }
+}
+
+.hero_section_image img{
+  object-fit: cover;
+}
+
+.timelineBox2 {
+  background-image: url('../../assets/image/timeline/timeline_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nftBuyBox {
+  background-image: url('../../assets/image/load-map/buyBoxBg.png');
+  background-size: 100% 100%;
+}
+
+.creatorBox {
+  background-image: url('../../assets/image/load-map/creatorBoxBg.png');
+  background-size: 100% 100%;
+}
+
+.firstScBg {
+  background-image: url('../../assets/image/section/firstBg.png');
+  background-size: 100%;
+}
+
+.fourthScBg {
+  background-image: url('../../assets/image/section/fourthBg.png');
+  background-size: 100%;
+}
+
+.fifthScBg {
+  background-image: url('../../assets/image/section/fifthBg.png');
+  background-size: 100%;
+}

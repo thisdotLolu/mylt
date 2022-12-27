@@ -1,0 +1,25 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1E1E1E;
+  width: 100vw;
+  height: 100%;
+}
+
+.walletConnectBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  background: linear-gradient(100.98deg, #FFC55F 0%, #FB3951 58.18%, #E25A64 100%);
+
+  &:hover {
+    background: linear-gradient(100.98deg, #E25A64 0%, #ff0020 58.18%, #FFC55F 100%);
+  }
+
+
+}
